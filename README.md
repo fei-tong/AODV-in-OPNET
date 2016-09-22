@@ -1,5 +1,7 @@
 # AODV-in-OPNET
-AODV in OPNET 14.5
+AODV in OPNET 14.5. The work based on this code has been published in
+
+F. Tong, W. Tang, L. Peng, R. Xie, W. Yang, Y. Kim, `A Node-Grade based AODV Routing Protocol for Wireless Sensor Network`, the 2nd International Conference on Networks Security, Wireless Communications and Trusted Computing (NSWCTC), pp. 180–183, Apr. 2010. (http://dx.doi.org/10.1109/NSWCTC.2010.178)
 
 ## Record about Revising the Original NIST AODV & Own addition
 ### 1. In the Node Model of "aodv", it contains (from top to bottom):
