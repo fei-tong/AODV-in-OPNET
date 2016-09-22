@@ -1,0 +1,64 @@
+GLOBAL STATS ::
+~~~~~~~~~~~~~~~
+	input : 20
+	output : 20
+	data packet destroyed because of non entry: 0
+	data packet still in buffer: 0
+	Ack : 40
+
+INDIVIDUAL STATS ::
+~~~~~~~~~~~~~~~~~~~
+
+-> Node 0 ::
+-------------
+	--------------------
+	| TOTAL INPUT: 0  
+	--------------------
+	own_input : 0
+	forward_input : 0
+
+	--------------------
+	| TOTAL OUTPUT: 0  
+	--------------------
+	own_output : 0
+	forward_output : 0
+
+	data packet destroyed : 0
+	data packet still in buffer: 0
+	Ack : 0
+
+-> Node 1 ::
+-------------
+	--------------------
+	| TOTAL INPUT: 20  
+	--------------------
+	own_input : 0
+	forward_input : 20
+
+	--------------------
+	| TOTAL OUTPUT: 20  
+	--------------------
+	own_output : 0
+	forward_output : 20
+
+	data packet destroyed : 0
+	data packet still in buffer: 0
+	Ack : 20
+
+-> Node 2 ::
+-------------
+	--------------------
+	| TOTAL INPUT: 20  
+	--------------------
+	own_input : 20
+	forward_input : 0
+
+	--------------------
+	| TOTAL OUTPUT: 20  
+	--------------------
+	own_output : 20
+	forward_output : 0
+
+	data packet destroyed : 0
+	data packet still in buffer: 0
+	Ack : 20
