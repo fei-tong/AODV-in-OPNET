@@ -5,13 +5,13 @@ F. Tong, W. Tang, L. Peng, R. Xie, W. Yang, Y. Kim, `A Node-Grade based AODV Rou
 
 ## Record about Revising the Original NIST AODV & Own addition
 ### 1. In the Node Model of "aodv", it contains (from top to bottom):
-  "module name"	|	"process name"</p>
-	  ---------------|-------------</p>
-	  source	 |	  source</p>
-	   sink		 |	  aodv_sink</p>
-	 aodv_routing	 |   	  aodv_routing</p>
-	wlan_mac_intf	 |	  aodv_wlan_mac_interface</p>
-	wireless_lan_mac |	  wlan_dispatch	(in 14.5)</p>
+ "module name"|"process name"
+---------------|-------------
+source|source
+sink		 |	  aodv_sink
+aodv_routing	 |   	  aodv_routing
+wlan_mac_intf	 |	  aodv_wlan_mac_interface
+wireless_lan_mac |	  wlan_dispatch	(in 14.5)
 ### 2. Add two pipeline stage files: wlan_txdel_wsn (1st stage) & wlan_ecc_wsn (13th stage), which are the modifications of the original wlan_txdel and wlan_ecc in OPNET 14.5 respectively. You should compile these two files before running the simulation.
 
 The two pipeline stage files have two functions: energy model (refer to LEACH) & communication range restriction.
@@ -32,4 +32,4 @@ node 2 | the source node ("MAC Address"=2, "Node Type"= sensor, "source.Send DAT
  ------------- | -----------
  1st file| "sink.Sink File", Default setting:"C:\OPNET SIM\AODV for OPNET 14.5\result\sink.txt";
 2nd file| "Invalid Time Record File". Default setting:"C:\OPNET SIM\AODV for OPNET 14.5\result\invalid time.txt". The "Energy" attribute assign initial energy to each node, so this file record which node has been energy exhausted during the simulation;
-	3rd file| "sink File Two".Default setting:"C:\OPNET SIM\AODV for OPNET 14.5\result\sink_two.txt";
+3rd file| "sink File Two".Default setting:"C:\OPNET SIM\AODV for OPNET 14.5\result\sink_two.txt".
