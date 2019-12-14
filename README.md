@@ -5,7 +5,7 @@ F. Tong, W. Tang, L. Peng, R. Xie, W. Yang, Y. Kim, `A Node-Grade based AODV Rou
 
 ## Record about Revising the Original NIST AODV & Own addition
 ### 1. In the Node Model of "aodv", it contains (from top to bottom):
-  "module name"	|	"process name"
+  "module name"	|	"process name"</p>
 	  -------------|-------------
 	  source		|	  source
 	   sink		  |	         aodv_sink
